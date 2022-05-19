@@ -1,0 +1,59 @@
+let myResume={
+    "basics": {
+      "name": "SB Vijaykrishna",
+      "email": "mail@gamil.com",
+      "phone": 8978978970,
+      "degree": "B.E",
+      "location": {
+        "address": "9-1, TVS Road",
+        "postalCode": 507111,
+        "city": "Bhadrachalam",
+        "state": "Telangana",
+        "country": "India"
+      },
+      "profiles": [
+        {
+          "website": "https://www.linkedin.com",
+          "github":"https://github.com"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "Rajdeep buildcon Pvt Ltd",
+        "position": "Junior Engineer",
+        "startDate": "20-05-2017",
+        "endDate": "30-10-2019",
+      },
+    ],
+    "education": [
+      {
+        "institution": "Gurunanak istitutes",
+        "department": "Civil Engineering",
+        "studyType": "fulltime",
+        "batch start year": 2014,
+        "batch end year": 2017,
+        "Percentage": 62 ,
+      }
+    ],
+    "skills": [
+      {
+        "name": "Full Stack Developer",
+        "level": "Beginner",
+        "project": [
+          "Calucator, chatbot,shopping cart",
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Telugu,HIndi,English",
+      }
+    ],
+    "interests": [
+      {
+        "name": "Playing cricket",
+      }
+    ]
+  }
+  console.log(myResume);
